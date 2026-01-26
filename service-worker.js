@@ -7,7 +7,7 @@ const STATIC_FILES = [
   '/offline.html',
   '/style.css',
   '/app.js',
-  '/logo.png'
+  '/icon.jpg'
 ];
 
 // Install
