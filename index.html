@@ -4,9 +4,14 @@
   <header class="header">
   Vastukar Guru
 </header>
+  <link rel="manifest" href="manifest.json">
 </head>
 <body>
-
+<script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js');
+    }
+</script>
 <!-- HERO SLIDER -->
 <div class="slider">
   <img src="imgstart.jpg">
